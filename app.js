@@ -26,7 +26,7 @@ require("./File_Metadata/filemetadata.js")(app, apiRoot);
 // Show endpoints
 // for (let i of app._router.stack) if (i.route && i.route.path) console.log(i.route.stack[0].method.toUpperCase(), i.route.path)
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 app.listen(port, () => {
     console.log('Your app is listening on port ' + port)
 });
